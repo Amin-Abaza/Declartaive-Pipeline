@@ -5,7 +5,7 @@ pipeline {
         stage('Biuld') {
             steps {
                 echo 'Build Satge Comlpeted...'
-                ech 'Hello from Github'
+                echo 'Hello from Github'
             }
         }
         stage('Test') {
